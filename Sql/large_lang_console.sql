@@ -1,0 +1,16 @@
+create table if not exists large_lang_console(
+llm_code varchar(255) not null,
+pricing_console_code Integer null,
+admin_console_code varchar(255) null,
+management_console varchar(255) null,
+console_tools varchar(255) null,
+cli_tools varchar(255) null,
+open_source_gateway_enabled char null,
+total_lambdas varchar(255) null,
+base_image varchar(255) null,
+memory varchar(255) null,
+cpus varchar(255) null,
+gpus varchar(255) null,
+availability_zones varchar(255) null,
+multi_region_support varchar(255) null,
+constraint large_lang_console_pk primary key(llm_code));

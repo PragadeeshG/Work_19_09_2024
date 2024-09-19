@@ -1,0 +1,15 @@
+create table if not exists large_lang_configuration(
+large_lang_id Integer not null,
+large_lang_owner varchar(255) null,
+active_account char null,
+large_lang_type_id Integer null,
+large_lang_type varchar(255) null,
+large_lang_status varchar(255) null,
+large_lang_description Integer null,
+relative_dependencies Integer null,
+parent_pom varchar(255) null,
+flush_interval Integer null,
+build_params varchar(255) null,
+status varchar(255) null,
+time_to_execute varchar(255) null,
+constraint large_lang_configuration_pk primary key(large_lang_id));
